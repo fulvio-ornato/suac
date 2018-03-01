@@ -7,7 +7,7 @@ var app = express();
 var player = new MPlayer();
 
 app.get('/', function(req, res) {
-  res.sendFile('/home/fulvio/node/menu.html');
+  res.sendFile('/home/fulvio/suac/node/menu.html');
 });
 app.get('/suona', function(req, res) {
   player.openFile('/home/fulvio/msc/Modà - Forse non lo sai - Videoclip Ufficiale-32aoS7yFAP8.opus');
